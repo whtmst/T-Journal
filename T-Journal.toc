@@ -1,7 +1,11 @@
 ## Interface: 11200
-## Title: T-Journal
-## Author: whtmst
-## Notes: A dungeon journal addon for Vanilla WoW.
+## Title: [ |cFFFFFFFFWM|r ] |cFF11A6ECT-Journal|r |cFF7FFF7Fv1.18|r
+## Notes: |cFF11A6ECT-Journal|r - A dungeon/raid/open world journal addon. Made for |cff00ff00Turtle WoW|r with love by Wht Mst.
+## Version: 1.18
+## Author: Mikhail Palagin (Wht Mst)
+## X-Category: Dungeons and Raids
+## X-Date: 2025-12-06
+## X-Website: https://github.com/whtmst/T-Journal
 
 ## SavedVariables: T_JOURNAL_SAVED_VARS
 
