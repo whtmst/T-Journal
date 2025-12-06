@@ -1,0 +1,14 @@
+## Interface: 11200
+## Title: T-Journal
+## Author: whtmst
+## Notes: A dungeon journal addon for Vanilla WoW.
+
+## SavedVariables: T_JOURNAL_SAVED_VARS
+
+Localization\enUS.lua
+Localization\ruRU.lua
+
+Data\Dungeons.lua
+
+UI.xml
+Core.lua

@@ -1,0 +1,56 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+    <!-- Main T-Journal Frame -->
+    <Frame name="TJournalFrame" parent="UIParent" hidden="true" movable="true" enableMouse="true">
+        <Size x="700" y="500"/>
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+        <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+            <BackgroundInsets>
+                <AbsInset left="11" right="12" top="12" bottom="11"/>
+            </BackgroundInsets>
+            <TileSize>
+                <AbsValue val="32"/>
+            </TileSize>
+            <EdgeSize>
+                <AbsValue val="32"/>
+            </EdgeSize>
+        </Backdrop>
+
+        <Layers>
+            <Layer level="ARTWORK">
+                <FontString name="$parentTitle" inherits="GameFontNormal" text="T_JOURNAL_TITLE">
+                    <Anchors>
+                        <Anchor point="TOP" relativeTo="$parent" relativePoint="TOP" x="0" y="-18"/>
+                    </Anchors>
+                </FontString>
+            </Layer>
+        </Layers>
+
+        <Frames>
+            <!-- Close Button -->
+            <Button name="$parentCloseButton" inherits="UIPanelCloseButton">
+                <Anchors>
+                    <Anchor point="TOPRIGHT" x="-3" y="-3"/>
+                </Anchors>
+            </Button>
+        </Frames>
+
+        <Scripts>
+            <OnLoad>
+                TJournal_OnLoad(self);
+            </OnLoad>
+            <OnShow>
+                TJournal_OnShow(self);
+            </OnShow>
+            <OnHide>
+                TJournal_OnHide(self);
+            </OnHide>
+            <OnEvent>
+                TJournal_OnEvent(self, event, ...);
+            </OnEvent>
+        </Scripts>
+    </Frame>
+
+</Ui>
