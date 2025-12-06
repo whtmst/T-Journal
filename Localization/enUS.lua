@@ -1,5 +1,9 @@
--- English Localization
-local L = {}
+-- English Localization (Base)
+
+-- Create the global localization table if it doesn't exist.
+T_JOURNAL_LOCALIZATION = T_JOURNAL_LOCALIZATION or {};
+
+local L = T_JOURNAL_LOCALIZATION;
 
 -- General
 L["T_JOURNAL_TITLE"] = "T-Journal"
@@ -26,5 +30,3 @@ L["WRATH_OF_RAGNAROS_NAME"] = "Wrath of Ragnaros"
 L["WRATH_OF_RAGNAROS_DESCRIPTION"] = "Ragnaros swings his hammer in a wide arc, dealing heavy fire damage and knocking back all players in front of him."
 L["HAND_OF_RAGNAROS_NAME"] = "Hand of Ragnaros"
 L["HAND_OF_RAGNAROS_DESCRIPTION"] = "Ragnaros strikes a single target, dealing massive fire damage and sending them flying into the air."
-
-T_JOURNAL_LOCALIZATION = L

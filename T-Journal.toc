@@ -9,10 +9,10 @@
 
 ## SavedVariables: T_JOURNAL_SAVED_VARS
 
-Localization\enUS.lua
-Localization\ruRU.lua
+Localization/enUS.lua
+Localization/ruRU.lua
 
-Data\Dungeons.lua
+Data/Dungeons.lua
 
-UI.xml
 Core.lua
+UI.xml

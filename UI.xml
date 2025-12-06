@@ -20,7 +20,7 @@
 
         <Layers>
             <Layer level="ARTWORK">
-                <FontString name="$parentTitle" inherits="GameFontNormal" text="T_JOURNAL_TITLE">
+                <FontString name="$parentTitle" inherits="GameFontNormal" text="">
                     <Anchors>
                         <Anchor point="TOP" relativeTo="$parent" relativePoint="TOP" x="0" y="-18"/>
                     </Anchors>
